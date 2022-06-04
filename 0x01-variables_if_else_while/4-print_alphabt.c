@@ -12,7 +12,7 @@
 
 
 
-char main(void)
+int main(void)
 
 {
 
