@@ -16,18 +16,20 @@ int main(void)
 
 {
 
-	int n;
+	int ch;
 
-	for (n = 0; n < 10; n++)
+	for (ch = 48; ch <= 57; ch++)
 
 	{
 
-			printf("%d\n", n);
+			putchar(ch);
 
 	}
 
+	putchar(10); \*this is anASCII code for new line*\
 
 
-	return (0);
+
+		return (0);
 
 }
