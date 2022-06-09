@@ -1,10 +1,12 @@
 #include "main.h"
 
-/** main - prints putchar
+/*
+ * * main - prints putchar
  * * Return: always 0
  * */
 
 void print_alphabet_x10(void)
+
 {
 	int j;
 	int x;
@@ -15,6 +17,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 		}	
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
