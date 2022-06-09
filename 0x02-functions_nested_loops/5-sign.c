@@ -1,14 +1,25 @@
 #include "main.h"
 
 /**
-* _abs -> return absolute value of a number
-* @n: parameter
-* Return: absolute value of a number
+* print_sign -> prints sign based on condition
+* @n: argument passed
+* Return: 1, 0 -1
 */
-int _abs(int n)
+int print_sign(int n)
 {
-	if (n < 0)
-		n = -n;
-	return (n);
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
-
