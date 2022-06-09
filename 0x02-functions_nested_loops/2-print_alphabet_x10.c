@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** main - prints putchar
- * * Return: always 0
- * */
+/**
+ * main - prints putchar
+ * Return: always 0
+ */
 
 void print_alphabet_x10(void)
 {
@@ -15,6 +16,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 		}	
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
