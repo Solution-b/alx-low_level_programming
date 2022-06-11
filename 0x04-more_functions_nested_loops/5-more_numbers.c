@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
-* More_numbers -> Printing more numbers
+* more_numbers -> printing more numbers
 */
-void more_numbers(void);
+void more_numbers(void)
 {
-	int     x, y;
+	int x, y;
 
 	for (x = 0; x < 10; x++)
 	{
