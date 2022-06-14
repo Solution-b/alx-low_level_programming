@@ -1,7 +1,8 @@
 #include "main.h"
-
 /**
- *  _strcpy -> Concatenate two strings
+ * * _strcpy - Concatenate two strings
+ * _strcpy - Descibed above
+ * *_strcat - concatenate testing
  * @dest:  Second string to be concatenated to src
  * @src: first sting to be concatenated to dest
  * Return  pointer to the resulting string dest
